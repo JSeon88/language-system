@@ -1,6 +1,5 @@
 {
   "cSpell.words": ["materialdesignicons", "nuxtjs", "vuetify"],
-
   "eslint.enable": true,
   "eslint.validate": ["javascript", "typescript", "vue"],
   "editor.codeActionsOnSave": {

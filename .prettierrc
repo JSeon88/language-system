@@ -16,5 +16,6 @@
   "proseWrap": "preserve",
   "htmlWhitespaceSensitivity": "css",
   "embeddedLanguageFormatting": "auto",
-  "singleAttributePerLine": true
+  "singleAttributePerLine": true,
+  "vueIndentScriptAndStyle": true
 }
