@@ -1,5 +1,7 @@
 # 스펙
+
 ## client
+
     - nuxt3
     - typescript
     - 스토어
@@ -12,10 +14,12 @@
     - vuetify
     - vitest
     - zod
+
 ## server
+
     - node
     - express
-    - typescript 
+    - typescript
     - prisma : mysql
     - vitest
     - 파일업로드 : multer

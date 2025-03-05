@@ -1,0 +1,8 @@
+*.md
+build
+*.html
+dist
+static
+public/mockServiceWorker.js
+.nuxt
+.vscode
