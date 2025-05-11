@@ -11,19 +11,17 @@ export default defineNuxtConfig({
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-expect-error
         config.plugins.push(vuetify({ autoImport: true }));
       });
     },
   ],
+  css: ['vuetify/styles', '@/assets/css/reset.css'],
   build: {
     transpile: ['vuetify'],
   },
   vite: {
     vue: {
-      template: {
-        transformAssetUrls,
-      },
+      plugins: [vuetify({ autoImport: true })],
     },
   },
 });
